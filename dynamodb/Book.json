@@ -1,0 +1,5 @@
+{
+  "ISBN": {"S": "1234"},
+  "Title": {"S": "AWS Guide"},
+  "Author": {"S": "Marwan"}
+}
