@@ -1,24 +1,68 @@
-# AWS Captain Project
+# AWS Captain Project → SourceIQ Platform
 
-## Project Overview
-This project is a small hands-on example using **LocalStack** to simulate AWS services locally. The goal is to demonstrate basic usage of **AWS CLI** on Windows CMD for simple AWS operations.
+## 🚀 Project Evolution
 
-Services included:
-- **S3** for file storage
-- **DynamoDB** as a NoSQL database
-- **Lambda** for a simple serverless function
+**This repository has been transformed!** 
+
+What started as a simple AWS CLI demonstration project has evolved into **SourceIQ (ذكاء المصادر)** - a comprehensive Arabic AI-powered document analysis platform.
+
+### 🔄 From Simple Demo to Professional Platform
+
+**Original Project (AWS Captain)**:
+- Basic LocalStack AWS CLI examples
+- S3, DynamoDB, and Lambda demonstrations
+- Command-line tools for learning
+
+**New Project (SourceIQ)**:
+- Full-stack web application
+- Professional Arabic user interface
+- AI-powered document analysis
+- Authentication and user management
+- Modern React + Node.js architecture
 
 ---
 
-## Project Structure
+## 📁 Current Project Structure
 
-- `s3/` → example files for S3 operations
-- `dynamodb/` → JSON files for table creation and item operations
-- `lambda/` → Lambda function code, ZIP file, and event JSON
-- `screenshots/` → screenshots of the outputs
-- `README.md` → this file
+```
+SourceIQ Platform/
+├── frontend/          # React.js Arabic Interface
+├── backend/           # Node.js API Server  
+├── uploads/           # Document Storage
+├── README.md          # Platform Documentation
+└── [legacy files]     # Original AWS examples preserved
+```
+
+## 🌟 SourceIQ Features
+
+- 🌐 **Complete Arabic Interface** with RTL support
+- 📄 **Document Upload** (PDF, DOCX, images, etc.)
+- 🤖 **AI Chat** for document Q&A
+- 📊 **Smart Summaries** and analysis
+- ⚖️ **Document Comparison** tools
+- 🎯 **Interactive Quizzes** generation
+- 🔐 **Secure Authentication** system
+
+## 🚀 Getting Started
+
+See the main [README.md](README.md) for complete setup instructions.
+
+Quick start:
+```bash
+# Start backend
+cd backend && npm install && npm run dev
+
+# Start frontend  
+cd frontend && npm install && npm start
+```
+
+Then visit: http://localhost:3000
 
 ---
+
+## 📚 Original AWS Examples (Legacy)
+
+The original AWS CLI examples are preserved below for reference:
 
 ## How to Run the Project
 
